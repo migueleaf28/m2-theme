@@ -2,7 +2,10 @@
     "name": "tech/m2-theme",
     "description": "Tech theme custom",
     "type": "magento2-theme",
-    "license": "GPL-3.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
     "authors": [
         {
             "name": "Miguel Abache",
@@ -12,7 +15,12 @@
     "config": {
         "sort-packages": true
     },
-    "require": {},
+    "version": "1.0.1",
+    "require": {
+        "php": "~8.1.0||~8.2.0",
+        "magento/framework": "103.0.*",
+        "magento/theme-frontend-blank": "100.4.*"
+    },
     "autoload": {
         "files": [
             "registration.php"
