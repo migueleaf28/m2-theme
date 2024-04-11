@@ -1,0 +1,22 @@
+{
+    "name": "tech/m2-theme",
+    "description": "Tech theme custom",
+    "type": "magento2-theme",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Miguel Abache",
+            "email": "migueleaf28@gmail.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
+
