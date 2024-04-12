@@ -5,6 +5,6 @@
  */
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::THEME,
-    'frontend/Tech/m2-theme',
+    'frontend/Migueleaf28/m2-theme',
     __DIR__
 );
